@@ -26,6 +26,7 @@
   });
   equals.addEventListener("click", () => {
     let maths = eval(screen.value);
+
     screen.value = maths;
   });
 })();
